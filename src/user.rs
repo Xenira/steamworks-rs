@@ -164,7 +164,7 @@ fn test() {
 
 /// A handle for an authentication ticket that can be used to cancel
 /// it.
-pub struct AuthTicket(pub(crate) sys::HAuthTicket);
+pub struct AuthTicket(pub sys::HAuthTicket);
 
 /// Called when generating a authentication session ticket.
 ///
